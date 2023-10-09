@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocerymart</title>
+    <title>Grocery Mart</title>
+    
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-<link rel="manifest" href="./assets/favicon/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<!-- fonts -->
-<link rel="stylesheet" href="./assets/fonts/stylesheet.css">
-<style>
-    body {
-        font-family: Gordita, sans-serif;
-    }
-</style>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- fonts -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    
+    <!-- scripts -->
+    <script src="./assets/js/scripts.js"></script>
 </head>
 <body>
-    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique rem eum commodi itaque distinctio quia est laboriosam deserunt consectetur facilis, sunt repudiandae nulla maiores dolorem, saepe modi nam at inventore.</h1>
+    <header id="header" class="header"></header>
+        <script>
+            load("#header","./template/header.html");
+        </script>
+    <div class="container">
+        <h1>Home page</h1>
+        <footer id="footer"></footer>
+        <script>
+            load("#footer","./template/footer.html");
+        </script>
+    </div>
 </body>
 </html>
